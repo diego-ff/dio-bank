@@ -11,6 +11,7 @@ python = "^3.11"
 # Adicione outras dependências, exemplo:
 # fastapi = "^0.110.0"
 flask = "^3.1.1"
+sqlalchemy = "^2.0.0" 
 
 [build-system]
 requires = ["poetry-core"]
