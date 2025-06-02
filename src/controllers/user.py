@@ -5,7 +5,7 @@ from flask_jwt_extended import get_jwt_identity, jwt_required
 from sqlalchemy import inspect
 from src.utils import requires_role
 
-from src.app import User, db
+from src.models import User, db
 
 app = Blueprint("user", __name__, url_prefix="/users")
 
